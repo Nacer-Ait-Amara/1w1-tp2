@@ -10,12 +10,18 @@
 <body>
     <header class="entete" id="entete">
         <div class="global">
-            <nav>
-                <a href="#entete">Acceuil</a>
-                <a href="#section-1">section-1</a>
-                <a href="#section-2">section-2</a>
-                <a href="#section-3">section-3</a>
-                <a href="#section-4">section-4</a>
+            <label id="burger" for="chk-burger">
+                <img src="https://s2.svgbox.net/hero-outline.svg?ic=menu-alt-1&color=000" width="32" height="32">
+            </label>   
+            <input type="checkbox"  id="chk-burger">
+            <nav id="menu">
+                <a href="#entete">Accueil</a>
+                <a href="#section-1">Section-1</a>
+                <a href="#section-2">Section-2</a>
+                <a href="#section-3">Section-3</a>
+                <a href="#section-4">Section-4</a>
+                <a href="#pied">Footer</a>
+
             </nav>
 
             <div id="hero">
@@ -38,7 +44,7 @@
                 </p>
             </div>
             <div id="logo">
-            <img src="images/logo.png" alt="">
+            <img id="img-logo" src="images/logo.png" alt="">
             </div>
 
             </div>
@@ -69,7 +75,9 @@
     </section>
 
 <section id="pied" class="pied">
-    <div class="global"></div>
+    <div class="global">
+
+    </div>
 </section>
    
 </body>
