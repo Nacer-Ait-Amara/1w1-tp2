@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.entete,
+.pied{
+    background-color: rgb(75, 75, 158);
+}
+
+body > section:nth-of-type(1) {
+    background-color: hsl(171, 31%, 79%);
+}
+body > section:nth-of-type(2) {
+    background-color: hsl(171, 50%, 60%);
+}
+body > section:nth-of-type(3) {
+    background-color: hsl(171, 50%, 50%);
+}
+body > section:nth-of-type(4) {
+    background-color: hsl(171, 50%, 20%);
+}
+
+.global{
+    min-height: 100vh;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 0 auto;
+}
+
+h1{
+margin: 0;
+color: aqua;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
+font-size: 3.5rem;
+}
+
+p{
+ margin-top: 20px;
+ font-size: 17px;
+ line-height: 2rem;
+ color: rgb(89, 213, 213);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    left: 30%;
+    right: 30%;
+    background-color: rgba(0, 0, 0, 0.082);
+
+}
+
+nav a{
+    margin: 20px;
+    margin-top: 40px;
+    text-decoration: none;
+    color: aqua;
+}
+
+#hero{
+    display: flex;
+    position: relative;
+    top: 100px;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 500px;
+}
+
+#texte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    flex-basis: 300px;
+}
+#sous-titre{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 850px;
+}
+#logo{
+    flex-grow: 1;
+    flex-basis: 300px;
+}
